@@ -1,5 +1,5 @@
 
-name: Flask Microservice - Meishar
+name: Test on Debian: Flask Microservice - Meishar
 on: [push]
 jobs:
   build:
