@@ -3,7 +3,7 @@ make install:
 		pip install -r requirements.txt
 
 make lint: 
-	echo linting 
+	pylint --disable=R,C,W1203,W0702 app.py
 
 make format:
 	echo formating 
