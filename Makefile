@@ -9,7 +9,7 @@ make format:
 	echo formating 
 
 make test:
-	echo testing
+	python -m pytest -vv --cov=app test_app.py
 
 make all:
 	install lint format test
