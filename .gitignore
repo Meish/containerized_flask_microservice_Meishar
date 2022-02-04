@@ -127,3 +127,8 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+*.exe
+.CFMM/pyvenv.cfg
+.CFMM/Scripts/activate
+.CFMM/Scripts/Activate.ps1
+.CFMM/Scripts/activate.bat
